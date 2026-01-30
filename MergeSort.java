@@ -1,7 +1,7 @@
 public class MergeSort {
     public static void main(String[] args) {
 
-        int[] a = {2, 1, 3, 2, 7, 8};
+        int[] a = {2, 1, 3, 2, 7, 8, 12, 14};
         int[] m = new int[a.length];
         sort(a, m);
         for (int value : m) {
